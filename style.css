@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-size: 16px;
+    background-color: #1f1f1f;
+
+}
+html{
+    height: 500px ;
+}
+:root{
+    --color-blue:#a3c1db;
+    --color-gold:#f5ce64;
+    --color-black:#1f1f1f;
+    --color-gray:#ccc;
+    --color-red:rgb(204, 48, 48);
+
+}
+.gold{
+    color: #1f1f1f;
+    all: inherit;
+}
+::-webkit-scrollbar {
+    width: 1.1rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    
+    border: black;
+    border-radius: 1rem;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 1rem;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(44, 38, 38);
+  }
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+header{
+    position: fixed;
+    top: 0;
+    padding: .2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    display: flex;
+    
+}
+nav > h3 >a{
+    color: bisque;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+nav > h3{
+    margin-left: 10px;
+}
+a>img{
+    width: 60px;
+    height: 60px;
+}
+main{
+    position: absolute;
+    top: 20%;
+    display: grid;
+    grid-template-columns: 450px 200px;
+    column-gap: 300px;
+    grid-template-rows: 400px;
+    width: 80vw;
+    margin: 2rem 4rem;
+  
+}
+.text > h2{
+    color: white;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+.text > p{
+    margin-top: 20px;
+    color: white;
+}
+button{
+    border: none;
+    color: black;
+    background-color: wheat;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius:11px;
+    text-transform: capitalize;
+    margin-top: 4rem;
+    transition: ease-in .7s all;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.img{
+    margin-left: 100%;
+    width: 100%;
+}
+.img img{
+    width: 200px;
+    height: auto;
+}
+.icon{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.icon > img{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 5px;
+}
